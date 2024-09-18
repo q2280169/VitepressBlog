@@ -7,7 +7,7 @@ export default defineConfig({
   srcDir: './src',
   base: '/VitepressBlog/',
   head: [
-    ['link', {rel: 'icon', href: '/daredevil-32.svg'}]
+    ['link', {rel: 'icon', href: '/VitepressBlog/daredevil-32.svg'}]
   ],
   themeConfig: {
     logo: '/daredevil-32.svg',
