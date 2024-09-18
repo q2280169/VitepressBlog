@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Daredevil's Blog",
   description: "我的学习生活记录分享！",
   srcDir: './src',
+  base: '/VitepressBlog/',
   head: [
     ['link', {rel: 'icon', href: '/daredevil-32.svg'}]
   ],
