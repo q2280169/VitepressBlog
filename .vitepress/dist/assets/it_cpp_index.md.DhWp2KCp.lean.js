@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a2 as r}from"./chunks/framework.CbocFKz0.js";const u=JSON.parse('{"title":"语法","description":"","frontmatter":{},"headers":[],"relativePath":"it/cpp/index.md","filePath":"it/cpp/index.md"}'),o={name:"it/cpp/index.md"},i=r("",4),n=[i];function c(d,s,_,h,l,p){return t(),e("div",null,n)}const f=a(o,[["render",c]]);export{u as __pageData,f as default};
