@@ -14,13 +14,19 @@ export default defineConfig({
     // 导航栏
     nav: [
       {
-        text: 'IT技术',
+        text: 'IT',
         items: [
           {text: 'C++', link: '/it/cpp'}
         ]
       },
       {
-        text: '语言学习',
+        text: '军工',
+        items: [
+          {text: '战斗机概述', link: '/work/warplane_summary'}
+        ]
+      },
+      {
+        text: '语言',
         items: [
           {text: '英语', link: '/language/english'},
           {text: '日语', link: '/language/japanese'},
@@ -32,16 +38,28 @@ export default defineConfig({
       '/it/cpp/': [
         {
           text: 'C++',
-          collapsed: false,
           items: [
             {text: '语法', link:'/it/cpp/index'}
           ]
         },
       ],
+      '/work/warplane_summary/': [
+        {
+          text: '中国',
+          items: [
+            { text: '战斗机', link:'/work/warplane_summary/cn_fighter' }
+          ],
+        },
+        {
+          text: '美国',
+          items: [
+            { text: '战斗机', link:'/work/warplane_summary/cn_fighter' },
+          ],
+        }
+      ],
       '/language/english/': [
         {
           text: '英语',
-          collapsed: false,
           items: [
             {text: '语法', link:'/language/english/grammar'}
           ]
@@ -50,7 +68,6 @@ export default defineConfig({
       '/language/japanese/': [
         {
           text: '日语',
-          collapsed: false,
           items: [
             {text: '语法', link:'/language/japanese/index'}
           ]
